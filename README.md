@@ -1,11 +1,22 @@
 # Workona
 
+
+## wf
+```js
+➜ yarn build
+➜ yarn start
+
+```
+
+
 ## Setup
 
+install volta!
+
 ```js
-➜  workona git:(main) volta pin node@latest
+➜ volta pin node@latest
 success: pinned node@16.2.0 (with npm@7.13.0) in package.json
-➜  workona git:(main) volta pin npm@latest
+➜ volta pin npm@latest
 success: pinned npm@7.14.0 in package.json
 ```
 

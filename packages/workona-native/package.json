@@ -1,0 +1,17 @@
+{
+  "name": "workona-native",
+  "version": "1.0.0",
+  "description": "workona as a native app",
+  "author": "<mail@soenkekluth.com> (https://soenkekluth.com/)",
+  "license": "MIT",
+  "scripts": {
+    "prepare": "rimraf ./build",
+    "start": "open ./build/Workona-darwin-x64/Workona.app",
+    "build": "nativefier --darwin-dark-mode-support --insecure --ignore-certificate --icon './assets/icon.png' -f -c --build-version 1.1.0 -n Workona -p 'mac' https://workona.com/ ./build"
+  },
+  "dependencies": {
+    "nativefier": "^43.1.3",
+    "open": "^8.0.9",
+    "rimraf": "^3.0.2"
+  }
+}
